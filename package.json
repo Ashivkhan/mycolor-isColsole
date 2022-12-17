@@ -1,0 +1,29 @@
+{
+  "name": "exp-1",
+  "version": "1.0.0",
+  "description": "console-color-changing-text-color",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build":"tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashivkhan/mycolor-isColsole.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs text"
+  ],
+  "author": "Ashiv khan <ashivkhan347@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ashivkhan/mycolor-isColsole/issues"
+  },
+  "homepage": "https://github.com/Ashivkhan/mycolor-isColsole#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "files": ["lib/**/*"]
+}
